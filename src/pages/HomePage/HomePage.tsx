@@ -1,0 +1,20 @@
+import React, {useEffect} from 'react';
+import {Content, paintBackground} from "./HomePageStyle";
+import {Button, Typography} from "@mui/joy";
+
+
+const HomePage = () => {
+
+    useEffect(() => {
+        paintBackground('black');
+    }, [])
+
+    return (
+        <Content>
+            <Typography color="primary" level="h2">Home page</Typography>
+            <Button variant="solid">Hello world</Button>
+        </Content>
+    );
+};
+
+export default HomePage;
