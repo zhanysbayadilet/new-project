@@ -11,7 +11,7 @@ const HomePage = () => {
 
     return (
         <Content>
-            <Typography color="primary" level="h2">Home page</Typography>
+            <Typography color="primary" level="h2">Home page 1</Typography>
             <Button variant="solid">Hello world</Button>
         </Content>
     );
